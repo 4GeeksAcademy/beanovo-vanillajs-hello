@@ -15,14 +15,20 @@ let generatefrase = () => {
     "Sa Madona"
   ];
   let accio = [
-    "s'ha tirat",
+    "m'ha tirat",
     "m'ha d'aixonat",
     "m'ha rapinyat",
     "m'ha perdut",
     "m'ha mossegat"
   ];
   let esque = ["sa cartera", "sa mà", "es d'allonses", "ses claus", "sa cara"];
-  let aon = ["a sa tenda", "per sa finestra", "a sa riera", "p'es carrer"];
+  let aon = [
+    "p'es nas",
+    "per sa finestra",
+    "a sa riera",
+    "p'es carrer",
+    "a sa tenda"
+  ];
 
   let subjecteIndex = Math.floor(Math.random() * subjecte.length);
   let accioIndex = Math.floor(Math.random() * accio.length);
